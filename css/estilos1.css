@@ -1,7 +1,10 @@
 
 #navbar{
   background-color: rgb(105,183,200);
+
 }
+
+
 
 #ribbon{
     background-color: rgb(105,183,200);
@@ -78,10 +81,10 @@ hr {
 }
 
 .text-white-75 {
-    color: rgba(255, 255, 255, 0.75) !important;
+    color: rgba(255, 255, 255, 0.75) ;
 }
 .mb-4 {
-    margin-bottom: 1.5rem !important;
+    margin-bottom: 1.5rem ;
 }
 p {
     margin-top: 0;
@@ -90,7 +93,7 @@ p {
 *, *::before, *::after {
     box-sizing: border-box;
 }
-user agent stylesheet
+
 p {
     display: block;
     margin-block-start: 1em;
@@ -126,10 +129,10 @@ hr {
 }
 
 .text-white-75 {
-    color: rgba(255, 255, 255, 0.75) !important;
+    color: rgba(255, 255, 255, 0.75) ;
 }
 .mb-4 {
-    margin-bottom: 1.5rem !important;
+    margin-bottom: 1.5rem ;
 }
 p {
     margin-top: 0;
@@ -138,7 +141,7 @@ p {
 *, *::before, *::after {
     box-sizing: border-box;
 }
-user agent stylesheet
+
 p {
     display: block;
     margin-block-start: 1em;
@@ -264,19 +267,18 @@ img, svg {
 
 
   .footer {
-      padding-top: 5rem;
-      padding-bottom: 5rem;
+      padding-top: 4rem;
+      padding-bottom: 4rem;
       background-color: #565656;
       color: #fff;
   }
   .text-center {
-      text-align: center !important;
+      text-align: center;
   }
   *, *::before, *::after {
       box-sizing: border-box;
   }
 
-  user agent stylesheet
   footer {
       display: block;
   }
@@ -285,12 +287,16 @@ img, svg {
       background-color: rgb(105,183,200);
   }
   .text-white {
-      color: black !important;
+      color: white;
   }
   .text-center {
-      text-align: center !important;
+      text-align: center;
   }
   .py-4 {
-      padding-top: 1.5rem !important;
-      padding-bottom: 1.5rem !important;
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
   }
+
+.mb-0{
+  font-size: 1rem;
+}
