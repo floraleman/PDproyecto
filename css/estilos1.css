@@ -1,11 +1,14 @@
 
+  /*NAVBAR*/
 #navbar{
   background-color: rgb(105,183,200);
-
+  transition: all .5s ease;
 }
 
 
 
+
+/*RIBBON*/
 #ribbon{
     background-color: rgb(105,183,200);
     background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, #44777f 25px, #44777f 40px);
@@ -21,37 +24,24 @@
     left: auto;
     margin-top: -40px;
 }
-#separator-ribbon{
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    z-index: 2;
-}
-#separator-ribbon .content{
-    width: 150%;
-    height: 150px;
-    margin-left: -25%;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-}
-#birthday{
+
+#cinta{
     background-color: rgb(105,183,200);
     position: relative;
     margin-top: -20px;
-    z-index: 10;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 
-#birthday img{
+#cinta img{
     position: relative;
     margin-top: -30px;
 }
 
 
+/*SECCIÓN NOSOTROS*/
 #nosotros{
   background-color: #44777f;
-
 }
 
 .col-lg-8 {
@@ -59,9 +49,6 @@
   padding-bottom: 40px;
 }
 
-hr.divider-light {
-    background-color: #white;
-}
 hr.divider {
     height: 0.2rem;
     max-width: 3.25rem;
@@ -72,44 +59,18 @@ hr.divider {
 hr:not([size]) {
     height: 1.5px;
 }
-hr {
-    margin: 1rem 0;
-    color: white;
-    background-color: white;
-    border: 0;
-    opacity: 0.25;
-}
 
-.text-white-75 {
-    color: rgba(255, 255, 255, 0.75) ;
-}
-.mb-4 {
-    margin-bottom: 1.5rem ;
-}
-p {
-    margin-top: 0;
-    margin-bottom: 1rem;
-}
-*, *::before, *::after {
-    box-sizing: border-box;
-}
-
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+p:not(:first-child) {
+    text-align: justify;
 }
 
 
+/*SECCIÓN PRODUCTOS*/
 #productos{
   background-color: #565656;
 }
 
-hr.divider-light {
-    background-color: white;
-}
+
 hr.divider {
     height: 0.2rem;
     max-width: 3.25rem;
@@ -120,35 +81,13 @@ hr.divider {
 hr:not([size]) {
     height: 2px;
 }
-hr {
-    margin: 1rem 0;
-    color: #565656;
-    background-color: currentColor;
-    border: 0;
-    opacity: 0.25;
-}
+
 
 .text-white-75 {
     color: rgba(255, 255, 255, 0.75) ;
 }
-.mb-4 {
-    margin-bottom: 1.5rem ;
-}
-p {
-    margin-top: 0;
-    margin-bottom: 1rem;
-}
-*, *::before, *::after {
-    box-sizing: border-box;
-}
 
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
+
 
 .btn-xl {
     padding: 1.25rem 2.25rem;
@@ -166,10 +105,7 @@ p {
 
 
 
-*, *::before, *::after {
-    box-sizing: border-box;
-}
-
+/*SECCIÓN GALERÍA*/
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
     max-width: 1920px;
 }
@@ -238,6 +174,7 @@ img, svg {
     color: rgba(255, 255, 255, 0.5);
 }
 
+/*SECCIÓN CONTACTO*/
 #contacto{
   background-color: lightgrey;
 }
