@@ -109,26 +109,14 @@ hr:not([size]) {
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
     max-width: 1920px;
 }
-.p-0 {
-    padding: 0;
-}
+
 .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
     width: 100%;
-    padding-right: var(--bs-gutter-x, 0.75rem);
-    padding-left: var(--bs-gutter-x, 0.75rem);
     margin-right: auto;
     margin-left: auto;
 }
 
-.row {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: calc(var(--bs-gutter-y) * -1);
-    margin-right: calc(var(--bs-gutter-x) / -2);
-    margin-left: calc(var(--bs-gutter-x) / -2);
-}
+
 
 #portfolio .container-fluid .portfolio-box, #portfolio .container-sm .portfolio-box, #portfolio .container-md .portfolio-box, #portfolio .container-lg .portfolio-box, #portfolio .container-xl .portfolio-box, #portfolio .container-xxl .portfolio-box {
     position: relative;
@@ -137,19 +125,6 @@ hr:not([size]) {
 a {
     color: #44777f;
     text-decoration: underline;
-}
-
-
-element.style {
-}
-
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-}
-
-img, svg {
-    vertical-align: middle;
 }
 
 
@@ -170,9 +145,7 @@ img, svg {
     text-align: center;
   }
 
-  .text-white-50 {
-    color: rgba(255, 255, 255, 0.5);
-}
+
 
 /*SECCIÓN CONTACTO*/
 #contacto{
@@ -203,6 +176,8 @@ img, svg {
   }
 
 
+
+/*FOOTER*/
   .footer {
       padding-top: 4rem;
       padding-bottom: 4rem;
@@ -229,11 +204,3 @@ img, svg {
   .text-center {
       text-align: center;
   }
-  .py-4 {
-      padding-top: 1.5rem;
-      padding-bottom: 1.5rem;
-  }
-
-.mb-0{
-  font-size: 1rem;
-}
